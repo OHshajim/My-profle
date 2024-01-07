@@ -1,12 +1,7 @@
+/* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0;
 }
 
 .text-primary {
@@ -24,8 +19,36 @@ nav {
 
 }
 
+.section-title {
+
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-dis {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+/* nav realated style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+
+
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818;
 
     font-family: Open Sans;
     font-size: 45px;
@@ -47,4 +70,229 @@ nav li {
 nav a {
     text-decoration: none;
     color: #292828;
+}
+
+/* header realated style  */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png') ;
+
+    
+    background-repeat: no-repeat;
+    background-position: bottom right, 23px 38px;
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 550;
+}
+
+.banner.profle-pic {
+
+    width: 500px;
+    height: 600px;
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-dis {
+    margin-top: 0;
+    margin-bottom: 49px;
+
+
+}
+
+.butt1 {
+    
+     font-size: 20px;
+      font-weight: 700;
+      color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 15px 35px;
+    margin-left:30px ;
+    background-color: #FFF8F3;
+}
+    
+    
+
+  
+
+  
+
+
+
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section style*/
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin-top: 130px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+}
+
+.info-dis {
+    color: #474747;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+}
+
+#what-i-do-dis {
+    padding: 30px 130px;
+}
+
+/* skill */
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+
+.skill-dis {
+    color: #757575;
+    ;
+}
+
+/* resume  */
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-col {
+    margin-right: 20px;
+}
+
+.resume-col-title {
+    color: #474747;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.resume-item-dis {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* footer  */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+
+.footer-col {
+    padding-right: 117px;
+}
+
+.social-link a {
+    padding-right: 25px;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    
+    border: 0px;
+    width: 100%;
+
+
+
+    color: #757575;
+
+
+
+
 }
